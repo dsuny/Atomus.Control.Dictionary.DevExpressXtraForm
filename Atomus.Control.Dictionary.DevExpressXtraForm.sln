@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dotNet", "dotNet", "{E3AA536E-B350-43FB-B8A8-10C9EA65C539}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F857A484-929E-4246-91DC-AB89CCA0A697}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Views", "Views", "{BBC45073-35F2-45AE-9F93-92E918D22EA9}"
+	ProjectSection(SolutionItems) = preProject
+		src\Views\DevExpressXtraForm.cs = src\Views\DevExpressXtraForm.cs
+		src\Views\DevExpressXtraForm.Designer.cs = src\Views\DevExpressXtraForm.Designer.cs
+		src\Views\DevExpressXtraForm.resx = src\Views\DevExpressXtraForm.resx
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Control.Dictionary.DevExpressXtraForm.V18.1(dotNet)", "dotNet\DevExpress.v18.1\Atomus.Control.Dictionary.DevExpressXtraForm.V18.1(dotNet).csproj", "{4D1803AD-2B5C-4D21-AB1B-0EF08B04CCB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Control.Dictionary.DevExpressXtraForm.V20.1(dotNet)", "dotNet\DevExpress.v20.1\Atomus.Control.Dictionary.DevExpressXtraForm.V20.1(dotNet).csproj", "{8831CD27-05C4-4928-BF9B-AE8913DAC9B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D1803AD-2B5C-4D21-AB1B-0EF08B04CCB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D1803AD-2B5C-4D21-AB1B-0EF08B04CCB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D1803AD-2B5C-4D21-AB1B-0EF08B04CCB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D1803AD-2B5C-4D21-AB1B-0EF08B04CCB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8831CD27-05C4-4928-BF9B-AE8913DAC9B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8831CD27-05C4-4928-BF9B-AE8913DAC9B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8831CD27-05C4-4928-BF9B-AE8913DAC9B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8831CD27-05C4-4928-BF9B-AE8913DAC9B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BBC45073-35F2-45AE-9F93-92E918D22EA9} = {F857A484-929E-4246-91DC-AB89CCA0A697}
+		{4D1803AD-2B5C-4D21-AB1B-0EF08B04CCB0} = {E3AA536E-B350-43FB-B8A8-10C9EA65C539}
+		{8831CD27-05C4-4928-BF9B-AE8913DAC9B1} = {E3AA536E-B350-43FB-B8A8-10C9EA65C539}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4764E9AF-F473-4669-912B-77BBE9ABE2A7}
+	EndGlobalSection
+EndGlobal
